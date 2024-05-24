@@ -90,7 +90,7 @@ html {
 }
 body {
   background-color: var(--white);
-  color: black;
+
   font-size: 1.6rem;
   line-height: 1.6;
   overflow-x: hidden;
@@ -340,8 +340,8 @@ body.active {
   visibility: visible;
 }
 .navbar-list { 
-  color: var(--black);
   margin-block: 10px; 
+  color: var(--black);
 }
 .nav-item:not(:last-child) { 
   border-block-end: 1px solid hsla(0, 0%, 0%, 0.04); 
@@ -1129,5 +1129,4 @@ textarea.input-field {
   .about .container { gap: 60px; }
   .banner-md .banner-item-content { left: 55%; }
   .footer-top .container { grid-template-columns: 1.4fr 1fr 1fr 1.6fr; }
-
 }
