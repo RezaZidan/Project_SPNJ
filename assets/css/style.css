@@ -341,6 +341,7 @@ body.active {
   visibility: visible;
 }
 .navbar-list { 
+  color: var(--black);
   margin-block: 10px; 
 }
 .nav-item:not(:last-child) { 
