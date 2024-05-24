@@ -324,6 +324,7 @@ body.active {
 }
 .navbar {
   position: absolute;
+  background-color: white;
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
@@ -1129,4 +1130,5 @@ textarea.input-field {
   .about .container { gap: 60px; }
   .banner-md .banner-item-content { left: 55%; }
   .footer-top .container { grid-template-columns: 1.4fr 1fr 1fr 1.6fr; }
+
 }
